@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.links{
+    float: center;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 100px;
+    font-size: 40px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menubar{
+    list-style: none;
+    position: absolute;
+    cursor: pointer;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links:hover{
+    font-size: 50px;
+}
+
+
+#app{
+    background: linear-gradient(blue,yellow,red,green,orange);
+}
+
+#myCarousel{
+    background-color: red;
+}
+
+#myCarousel img{
+    height: 300px;
+    margin-top: 45px;
+}
+
+.carousel-inner p{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
